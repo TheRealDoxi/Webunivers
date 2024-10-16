@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Aarhus Synergien</a></li>
+            <li><a href="fælleskab.html">Fælleskab</a></li>
+            <li><a href="musik.html">Musik</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="ungiaarhus.html">Ung i Aarhus</a></li>
+            <li><a href="oversigt.html">Oversigt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="events-overskrift">
+            <h1>Hvilke events kan jeg tage til?</h1>
+        </section>
+
+        <section class="billedgruppe-3-container">
+            <img src="img/basketballkamp.jpg" alt="basket" class="billedegruppe-3">
+            <img src="img/medina.jpg" alt="medina-koncert" class="billedegruppe-3">
+            <img src="img/openmicstandup.jpg" alt="open-mic-standup" class="billedegruppe-3">
+        </section>
+
+        <section class="pile-container">
+            <img src="img/pil1.png" alt="pil" class="orange-pil-1">
+            <img src="img/pil2.png" alt="pil" class="orange-pil-2">
+        </section>
+
+        <section>
+            <div class="rektangel-g">
+                <p>Basketball kamp</p>
+            </div>
+
+            <div class="rektangel-h">
+                <p><a class="medina-link" href="artikel2-medina.html">Medina koncert</a></p>
+            </div>
+
+            <div class="rektangel-i">
+                <p><a class="open-mic-link" href="artikel3-openmicstandup.html">Open Mic Standup</a></p>
+            </div>
+        </section>
+    
+    </main>
+
+    <footer class="footer">
+        <div class="footer-tekst">
+            Aarhus Synergien <br>Kontakt<br>Om os<br>Nyhedsbrev<br>FAQ<br>Betingelser
+        </div>
+        <div class="footer-content">
+            <h2>Skriv dig op her og find dit nye fællesskab</h2>
+            <form class="footer-form">
+                <label for="full-name">Fulde navn:</label>
+                <input type="text" id="full-name" name="full-name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="birthday">Fødselsdagsdato:</label>
+                <input type="date" id="birthday" name="birthday" required>
+    
+                <label for="age">Alder:</label>
+                <input type="number" id="age" name="age" min="0" required>
+    
+                <button type="submit">Tilmeld</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
